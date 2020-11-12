@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "E-app",
+    "slug": "E-App",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/E-Icon.png",
+    "splash": {
+      "image": "./assets/screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFBC8F"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "extra": {
+      "googleAppId": {
+        "ios": "955090941360-qucp1avubiop8dc506cg5v4tfdonq4ge.apps.googleusercontent.com",
+        "android": "955090941360-vupr8g0a0g8nbn8cphni3s85aeibm4hs.apps.googleusercontent.com"
+      }
+    }
+  }
+}
